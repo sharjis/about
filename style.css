@@ -31,10 +31,7 @@ h1{
     background-image: linear-gradient(45deg,lightsalmon, tomato );
     color: white;
     font-weight: bolder;
-    font-size: large;
-
-    
-    
+    font-size: large;  
 }
 .half-widtht{
     width: 40%;
@@ -46,7 +43,7 @@ h1{
     width: 100%;
 }
 section{
-    height 500px;
+    height :500px;
     padding-bottom: 150px;
 }
 p{
@@ -57,15 +54,13 @@ p{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    height: 500px;
-
-
-    
-    
+    height: 500px;    
 }
 .ss{
     box-shadow: 10px 10px 40px grey;
-    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+
 }
 .xp{
     margin-bottom: 100px;
@@ -75,16 +70,29 @@ p{
     height: 500px;
     background-repeat: no-repeat;
     background-position: left;
-    padding-bottom: 
-    background-position: left center bottom;
+    padding-bottom: 50px;
+    
 }
 #sp{
-    padding-bottom:500px;
+    padding-bottom:20px;
+    
 }
 #spt{
-    padding-bottom: 200px;;
+    padding-bottom: 100px;
 }
 footer p{
     text-align: center;
     color: black;
+}
+#border-one{
+    border-left: 7px solid;
+    border-image:linear-gradient(148deg,lightsalmon ,tomato);
+    border-image-slice: 1;
+
+}
+#border-two{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,blue, cyan );
+    border-image-slice: 1;
+
 }
