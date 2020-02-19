@@ -45,3 +45,46 @@ h1{
 .half-widtht img{
     width: 100%;
 }
+section{
+    height 500px;
+    padding-bottom: 150px;
+}
+p{
+    color: dimgray;
+}
+.dream-area{
+ 
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 500px;
+
+
+    
+    
+}
+.ss{
+    box-shadow: 10px 10px 40px grey;
+    padding-top: 100px;
+}
+.xp{
+    margin-bottom: 100px;
+    padding-right: 50px;
+    padding-bottom: 7000px;
+    background-image: url(exp-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 
+    background-position: left center bottom;
+}
+#sp{
+    padding-bottom:500px;
+}
+#spt{
+    padding-bottom: 200px;;
+}
+footer p{
+    text-align: center;
+    color: black;
+}
